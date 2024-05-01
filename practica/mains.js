@@ -12,10 +12,6 @@ console.log(nombre);
 const apellido = "Noa Condemayta";
 const altura = 169;
 
-//mostrar por consola
-console.log(nombre);
-console.log(apellido);
-
 //contatenacion
 
 let contatenacion = nombre + " " + apellido;
@@ -31,7 +27,6 @@ datos.innerHTML = `
 `;
 
 //condiciones
-
 if (altura <= 168) {
   datos.innerHTML += "<h1>Eres una persona de estatura alta</h1>";
 } else {
@@ -47,7 +42,6 @@ let nombres = ["alanis", "liliana", "gimena"];
 let divNombres = document.querySelector("nomnres");
 
 divNombres.innerHTML = nombres[0];
-
 // divNombres.innerHTML = "<h1>Listado de nombres</h1><ul>";
 /*nombres.forEach((nombre) => {
   divNombres.innerHTML += "<li>" + nombre + "</li>";
