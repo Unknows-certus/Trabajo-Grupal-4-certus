@@ -15,6 +15,7 @@
     <!-- Enlace al kit de iconos Font Awesome -->
     <script
       src="https://kit.fontawesome.com/b408879b64.js"
+      src="main.js"
       crossorigin="anonymous"
     ></script>
   </head>
@@ -62,7 +63,31 @@
         <button type="submit">Enviar mensaje</button>
 
         <script>
-          alert(Bienvenido a mi ejemplo con Noa)
+          //varianble
+          let nombre = "Noa Condemayta abel";
+          nombre = "abel";
+
+          //mostrar por consola
+          console.log(nombre);
+
+          //constantes
+          const apellido = "Noa";
+          const altura = 187;
+
+          //mostrar por consola
+          console.log(nombre);
+          console.log(apellido);
+
+          //concatenar
+          let concatenar = nombre + " " + apellido;
+
+          //seleccionar elementos de la pagina
+          let Datos = document.querySelector("#datos");
+          Datos.innerHTML = `
+          <hr>
+          <h1>soy la caja de datos </h1>
+          <h2>mi nombre es: ${concatenar} </h2>
+          `;
         </script>
       </form>
     </div>
